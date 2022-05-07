@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>台灣地圖</title>
+    <link rel="canonical" href="index.html"/>
+    <meta property="fb:app_id" content="2435108729902508"/>
+    <meta property="og:url" content="index.html"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Let's Write"/>
+    <meta property="og:title" content="d3、vue 畫一個台灣地圖 - Let's Write"/>
+    <meta property="og:description" content="d3、vue 畫一個台灣地圖 - Let's Write"/>
+    <meta property="og:image" content="fb.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <link rel="shortcut icon" href="dist/img/logo_512.png"/>
+    <link rel="stylesheet" href="ajax/reset.min.css"/>
+    <link rel="stylesheet" href="dist/augurio-taiwan.min.css"/>
+    <!-- Google Tag Manager-->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PGQ9WQT');
+      
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript)-->
+    <div class="container" id="app">
+      <div class="taiwan-map" ref="map">
+        <div id="map">
+          <svg id="svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+      </div>
+      <div class="shop-list">
+        <h1>{{ h1 }}</h1>
+        <h2>{{ h2 }}</h2>
+      </div>
+    </div>
+    <script src="ajax/polyfill.min.js"></script>
+    <script src="ajax/vue.js"></script>
+    <script src="d3/d3.v3.min.js"></script>
+    <script src="dist/augurio-taiwan.min.js"></script>
+  </body>
+</html>

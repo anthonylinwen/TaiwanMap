@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.d3js.org	TRUE	/	FALSE	1999999999	__cfduid	df48bf07887e266f0cda53db1eb7cc7851614328329
+d3js.org	TRUE	/	FALSE	1999999999	SameSite	Lax
+
